@@ -1,0 +1,34 @@
+{
+  "name": "startup_package",
+  "version": "1.0.0",
+  "description": "standardized package for simple webapps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliu730/StartUp-Repo.git"
+  },
+  "author": "Andrew Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliu730/StartUp-Repo/issues"
+  },
+  "homepage": "https://github.com/aliu730/StartUp-Repo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
